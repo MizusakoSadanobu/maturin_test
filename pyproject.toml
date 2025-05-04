@@ -12,6 +12,4 @@ classifiers = [
 ]
 dynamic = ["version"]
 [tool.maturin]
-python-source = "python" #add
-module-name = "maturin_test._lib_name" #add
-# features = ["pyo3/extension-module"]
+features = ["pyo3/extension-module"]
